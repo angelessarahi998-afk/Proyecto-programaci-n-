@@ -1,10 +1,11 @@
-# SARAHI ANGELES MARTINEZ SUBE PROYECTO 
+# SARAHI ANGELES MARTINEZ SUBE PROYECTO
+# ADRIANA CIPRIANO CRUZ CAMBIA UN DATO DEL CÓDIGO
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
 from datetime import date, datetime
 
 USUARIOS_DOCENTES = {
-    "profe.maria":  {"pass": "Maria1",  "grupo": "1°", "nombre_real": "Profra. Maria Lopez - 1° Grado"},
+    "profe.maria":  {"pass": "Maria1",  "grupo": "1°", "nombre_real": "Profa. Maria Lopez - 1° Grado"},
     "profe.juan":   {"pass": "Juan2",   "grupo": "2°", "nombre_real": "Profe. Juan Perez - 2° Grado"},
     "profe.ana":    {"pass": "Ana3",    "grupo": "3°", "nombre_real": "Profra. Ana Torres - 3° Grado"},
     "profe.carlos": {"pass": "Carlos4", "grupo": "4°", "nombre_real": "Profe. Carlos Ruiz - 4° Grado"},
