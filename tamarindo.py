@@ -1,5 +1,5 @@
 # SARAHI ANGELES MARTINEZ SUBE PROYECTO
-# ADRIANA CIPRIANO CRUZ CAMBIA UN DATO DEL CÓDIGO
+# ADRIANA CIPRIANO CRUZ CAMBIA UN DATO DEL CÓDIGO. 
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
 from datetime import date, datetime
