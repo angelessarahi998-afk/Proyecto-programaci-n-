@@ -1,5 +1,6 @@
 # SARAHI ANGELES MARTINEZ SUBE PROYECTO
-# ADRIANA CIPRIANO CRUZ CAMBIA UN DATO DEL CÓDIGO. 
+# ADRIANA CIPRIANO CRUZ AGREGÓ EL CRUD DE CARTA COMPROMISO
+. 
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
 from datetime import date, datetime
@@ -14,6 +15,10 @@ USUARIOS_DOCENTES = {
 }
 USUARIO_DIRECTOR = "director"
 CONTRASENA_DIRECTOR = "Director123"
+
+# CREATE TABLE INCIDENCIAS(
+ID INT PRIMARY KEY NOT NULL, nombre_alumno VARCHAR(50), Fecha VARCHAR(30), Hora int, Situación VARCHAR(100);
+
 
 GUINDA = "#800000"
 GUINDA_OSCURO = "#5c0000"
