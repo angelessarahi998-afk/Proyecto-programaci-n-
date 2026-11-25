@@ -1,25 +1,35 @@
 # SARAHI ANGELES MARTINEZ SUBE PROYECTO
 # ADRIANA CIPRIANO CRUZ AGREGÓ EL CRUD DE CARTA COMPROMISO
 # ERIK RAMIREZ MONTOYA AGREGA TABLA DE USUARIOS Y ASISTENCIAS 
+'''
+1.- Falta agregar o mejorar diseño en el login
+2.- Como directivo: como le hago para editar o borrar la información de los alumnos o docentes ?, ya que no hay un boton de editar y eliminar
+3.- Al director le hace falta la sección de notificaciones y alertas
+4.- Al pasar lista como docente, el boton de guardar asistencia no funciona, no guarda la información de los alumnos en la base de datos
+5.- Revisar el diseño de los botones, ya que no se ve muy bien el diseño de los botones, pero el tamaño no es uniforme (es muy grande).
+'''
 
-#CREATE DATABASE ASISTENCIA_ESCOLAR;
-#USE ASISTENCIA_ESCOLAR;
+'''
+CREATE DATABASE ASISTENCIA_ESCOLAR;
+USE ASISTENCIA_ESCOLAR;
 
-#CREATE TABLE USUARIOS (
-#    ID_USUARIO INT PRIMARY KEY,
-#    USUARIO VARCHAR(30),
-#    CONTRASENA VARCHAR(30),
-#    ROL VARCHAR(15)
-#);
+CREATE TABLE USUARIOS (
+    ID_USUARIO INT PRIMARY KEY,
+    USUARIO VARCHAR(30),
+    CONTRASENA VARCHAR(30),
+    ROL VARCHAR(15)
+);
 
-#CREATE TABLE ASISTENCIAS (
-#    ID_ASISTENCIA INT PRIMARY KEY,
-#    ALUMNO VARCHAR(50),
-#    GRUPO VARCHAR(15),
-#    FECHA VARCHAR(15),
-#    ESTADO VARCHAR(15),
-#    DOCENTE VARCHAR(30)
-#);
+CREATE TABLE ASISTENCIAS (
+    ID_ASISTENCIA INT PRIMARY KEY,
+    ALUMNO VARCHAR(50),
+    GRUPO VARCHAR(15),
+    FECHA VARCHAR(15),
+    ESTADO VARCHAR(15),
+    DOCENTE VARCHAR(30)
+);
+'''
+
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
 from datetime import date, datetime
